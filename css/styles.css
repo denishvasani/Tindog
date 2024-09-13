@@ -1,0 +1,175 @@
+body{
+    font-family:"Montserrat:ital" ;
+}
+
+
+h1{
+    font-family: "Montserrat:ital";
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size:"Montserrat:ital" ;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family:"Montserrat:ital" ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+
+
+}
+
+.navbar{
+    margin-bottom: 30px;
+}
+
+.collapse{
+    margin-left: 50%;
+}
+
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 32%;
+  
+}
+
+/* future */
+#features{
+    padding: 7% 5%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-box{
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+/* <!-- Press --> */
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+     
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* <!-- Pricing --> */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colum{
+    padding: 3% 2%;
+}
+
+@media (max-width:1080px) {
+
+
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        margin-top: 30px;
+    }
+}
+
+/* <!-- Call to Action --> */
+
+#cta{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+
+}
+
+.cta-heding{
+    font-family:"Montserrat:ital" ;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+
+.apple{
+    margin-right: 5px;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foorer-icn{
+   margin: 20px 10px;
+}
